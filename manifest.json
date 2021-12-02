@@ -1,8 +1,8 @@
 {
-  "name": "AreTect",
+  "name": "AreTec",
   "short_name": "AreTec",
-  "description": "Prueba AreTec PWA",
-  "background_color": "#AF7AC5",
+  "description": "Empresa en desarrollo de software, 100% Duranguense",
+  "background_color": "#7D3C98",
   "theme_color": "#7D3C98",
   "orientation": "portrait",
   "display": "standalone",
@@ -11,53 +11,63 @@
   "lang": "es-MX",
   "icons": [
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/1024x1024.png",
       "sizes": "1024x1024",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/512x152.png",
       "sizes": "512x512",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/384x384.png",
       "sizes": "384x384",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/256x256.png",
       "sizes": "256x256",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/192x192.png",
       "sizes": "192x192",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/128x128.png",
       "sizes": "128x128",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/96x96.png",
       "sizes": "96x96",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/64x64.png",
       "sizes": "64x64",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/32x32.png",
       "sizes": "32x32",
+      "purpose": "any maskable",
       "type": "image/png"
     },
     {
-      "src": "./img/AreTec.png",
+      "src": "./img/16x16.png",
       "sizes": "16x16",
+      "purpose": "any maskable",
       "type": "image/png"
     }
   ]

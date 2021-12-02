@@ -6,17 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AreTec - Servicios</title>
-  <meta name="description" content="Prueba AreTec pwa">
+  <meta name="description" content="Empresa desarrolladora de software, 100% Duranguense">
   <meta name="theme-color" content="#7D3C98">
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <!-- Links resources -->
-  <link rel="shortcut icon" type="image/png" href="../img/AreTec.png">
-  <link rel="apple-touch-icon" href="../AreTec.png">
-  <link rel="apple-touch-startup-image" href="../AreTec.png">
+  <link rel="shortcut icon" type="image/png" href="../img/1024x1024.png">
+  <link rel="apple-touch-icon" href="../img/1024x1024.png">
+  <link rel="apple-touch-startup-image" href="../img/1024x1024.png">
   <link rel="manifest" href="../manifest.json">
   <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> -->
   <!-- <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">  -->
@@ -27,30 +29,29 @@
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="..//css/navbar.css">
 </head>
-</head>
 <body>
     <!-- Hero Section -->
     <div class="hero">
     <nav class="navbar" id="navbar">
-      <a href="../index.html" class="navbar-logo">
-        <img class="navbar-logo-image" src="../img/AreTec.png" alt="AreTec">
+      <a href="../index.html" aria-label="Página principal de AreTec" class="navbar-logo">
+        <img class="navbar-logo-image" src="../img/1024x1024.png" alt="AreTec">
         <h2 class="navbar-logo-text">Are<span>Tec</span></h2>
       </a>
       <ul class="navbar-elements" id="navbar-elements">
         <li class="navbar-element">
-          <a href="../index.html" class="navbar-link">Inicio</a>
+          <a href="../index.html" aria-label="Inicio" class="navbar-link">Inicio</a>
         </li>
         <li class="navbar-element">
-          <a href="services.html" class="navbar-link">Servicios</a>
+          <a href="services.html" aria-label="Servicios" class="navbar-link">Servicios</a>
         </li>
         <li class="navbar-element">
-          <a href="curses.html" class="navbar-link">Cursos</a>
+          <a href="curses.html" aria-label="Cursos" class="navbar-link">Cursos</a>
         </li>
         <li class="navbar-element">
-          <a href="contact.html" class="navbar-link">Contacto</a>
+          <a href="contact.html" aria-label="Contacto" class="navbar-link">Contacto</a>
         </li>
       </ul>
-      <button class="navbar-toggle" id="navbar-toggle">
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Botón">
         <i class="far fa-bars"></i>
       </button>
     </nav>
@@ -59,8 +60,8 @@
       <p class="hero-text">
         Nuestro principal objetivo es ofrecer soluciones de software, apoyados en la constante evolución de la tecnología para lograr la permanencia de la calidad del servicio y satisfacción del cliente.      </p>
         <div class="hero-buttons">
-          <a href="#" class="button-round link-contact">Contáctanos</a>
-          <a href="#" class="button-round link-follow">Síguenos</a>
+          <a href="https://api.whatsapp.com/send?phone=526181386705&text=Hola, Buen día!" aria-label="Whatsapp" class="button-round link-contact" target="_blank">Contáctanos</a>
+          <a href="https://www.facebook.com/AreTecDgo" target="_blank" class="button-round link-follow" aria-label="Facebook">Síguenos</a>
       </div>
     </div>
     </div>
@@ -82,7 +83,7 @@
           Desarrollo web desde paginas sencillas hasta  aplicaciones dinamicas completas con base de datos.
         </p>
         <div class="service-link-container">
-          <a href="#" class="service-link">Contratar</a>
+          <a href="tel:+526181386705" class="service-link">Contratar</a>
         </div>
       </div>
 
@@ -95,7 +96,7 @@
           Desarrollo de aplicaciones móviles que permiten la optimización de los procesos de la empresa
         </p>
         <div class="service-link-container">
-          <a href="#" class="service-link">Contratar</a>
+          <a href="tel:+526181386705" aria-label="Whatsapp" class="service-link">Contratar</a>
         </div>
       </div>
 
@@ -108,7 +109,7 @@
           Constante acutalización de publicaciones en las redes sociales con respecto a su empresa y servicios
         </p>
         <div class="service-link-container">
-          <a href="#" class="service-link">Contratar</a>
+          <a href="tel:+526181386705" class="service-link">Contratar</a>
         </div>
       </div>
     </div>
@@ -118,56 +119,53 @@
         Acerca de nuestros servicios
       </h2>
       <hr class="rule-center">
-      <p class="cotainer-title-description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima corporis tenetur voluptate natus, quia nemo. Ut aspernatur rem sapiente. Quidem impedit consectetur dolorum, minima corporis dicta nulla numquam iste earum?
-      </p>
     </div>
     <!-- Service Web Development-->
     <div class="container-services">
       <div class="container-grid">
-          <div class="service-image">
+          <div class="service-image" data-aos="fade-right">
               <img src="../img/chocoworks.png" alt="Chocoworks" class="service-image-img">
           </div>
-          <div class="service-information grid-1">
+          <div class="service-information grid-1" data-aos="fade-left">
               <h2 class="service-information-title">Desarrollo web</h2>
               <p class="service-information-description">
-                  Aumenta el alcance de tu negocio y acercate más a tus clientes potenciales y dales a conocer de mejor manera los productos y servicios que ofreces medinate el uso de estas tecnologías.
+                  Aumenta el alcance de tu negocio y acercate más a tus clientes potenciales y dales a conocer de mejor manera los productos y servicios que ofreces mediante el uso de estas tecnologías. Ejemplo de desarrollo web: <a href="http://chocoworks.aretec.tech/" target="_blank" >Chocoworks</a> (en construcción). Te invitamos a seguirlos en sus redes sociales:
               </p>
               <div class="service-information-links">
-                  <a href="#" class="service-information-link button-round link-primary">Instagram</a>
-                  <a href="#" class="service-information-link button-round link-secundary">Facebook</a>
+                  <a href="https://www.instagram.com/chocoworks.dgo/" aria-label="Instagram de Chocoworks" target="_blank" class="service-information-link button-round link-primary">Instagram</a>
+                  <a href="https://facebook.com/chocoworksdgo" aria-label="Facebook de Chocoworks" target="_blank" class="service-information-link button-round link-secundary">Facebook</a>
               </div>
           </div>
       </div>
   
       <div class="container-grid">
-          <div class="service-information grid-1">
+          <div class="service-information grid-1" data-aos="fade-right">
               <h2 class="service-information-title">Desarrollo móvil</h2>
               <p class="service-information-description">
                   Ofrece comodidad a tus usuarios y opta por una aplicación móvil y da ese plus que necesita tu negocio para mantener al tanto a tus clientes y crecer potencialmente en el mercado.
               </p>
               <div class="service-information-links">
-                  <a href="mailto:atencionalcliente@aretec.tech" class="service-information-link button-round link-primary">Contáctanos</a>
-                  <a href="https://www.facebook.com/AreTecDgo/" target="_blank" rel="noreferrer" class="service-information-link button-round link-secundary">Ver más</a>
+                  <a href="mailto:atencionalcliente@aretec.tech" aria-label="Correo de AreTec" class="service-information-link button-round link-primary">Contáctanos</a>
+                  <a href="https://www.facebook.com/AreTecDgo/" aria-label="Facebook de AreTec" target="_blank" rel="noreferrer" class="service-information-link button-round link-secundary">Ver más</a>
               </div>
           </div>
-          <div class="service-image">
+          <div class="service-image" data-aos="fade-left">
               <img src="../img/service-mobile-development.jpg" alt="Mobile Development" class="service-image-img">
           </div>
       </div>
   
       <div class="container-grid">
-          <div class="service-image">
+          <div class="service-image" data-aos="fade-right">
               <img src="../img/social-media-background.jpg" alt="Mobile Development" class="service-image-img">
           </div>
-          <div class="service-information grid-1">
+          <div class="service-information grid-1" data-aos="fade-left">
               <h2 class="service-information-title">Administración de redes sociales</h2>
               <p class="service-information-description">
-                  Nunca había sido más fácil hacer crecer tu negocio! Ser constante y manter a tu público con las últimas novedades de manera directa, es la mejor forma de vender rápidamente tus productos y servicios mediante el uso de algo en lo que estamos siempre como lo son las redes sociales.
+                  Nunca había sido más fácil hacer crecer tu negocio! Ser constante y manter a tu público con las últimas novedades de manera directa, es la mejor forma de vender rápidamente tus productos y servicios mediante el uso de algo en lo que estamos siempre como lo son las redes sociales. Ejemplo de administración a sus redes sociales a <a href="https://facebook.com/rbmotors.mx">RB Motors</a>:
               </p>
               <div class="service-information-links">
-                  <a href="#" class="service-information-link button-round link-primary">Instagram</a>
-                  <a href="#" class="service-information-link button-round link-secundary">Facebook</a>
+                  <a href="https://www.instagram.com/rbmotors.mx/" aria-label="Instagram de RB Motors" target="_blank" class="service-information-link button-round link-primary">Instagram</a>
+                  <a href="https://facebook.com/rbmotors.mx" aria-label="Facebook de RB Motors" target="_blank" class="service-information-link button-round link-secundary">Facebook</a>
               </div>
           </div>
       </div>
@@ -184,7 +182,7 @@
       </p>
     </div>
     <div class="planes">
-      <div class="plane">
+      <div class="plane" data-aos="zoom-in">
         <div class="plane-header">
           <h2 class="plane-header-title">Básico</h2>
           <h2 class="plane-header-price">$700MX</h2>
@@ -194,11 +192,11 @@
             <p class="plane-body-list-item">1 Publicaciones a la semana</p>
             <p class="plane-body-list-item">1 Publicación extra</p>
             <p class="plane-body-list-item">1 Publicidad x 1 día</p>
-            <a href="#" class="plane-body-button button-round basic">Contratar</a>
+            <a href="https://api.whatsapp.com/send?phone=526181386705&text=Hola, Buen día! Me interesaría contratar el servicio BÁSICO para la administración de redes sociales, ¿podría proporcionarme más información? Porfavor" target="_blank" aria-label="Whatsapp de AreTec" class="plane-body-button button-round basic">Contratar</a>
         </div>
       </div>
 
-      <div class="plane">
+      <div class="plane" data-aos="zoom-in">
         <div class="plane-header impulse">
           <h2 class="plane-header-title">Impulso</h2>
           <h2 class="plane-header-price impulse">$1700MX</h2>
@@ -208,11 +206,11 @@
             <p class="plane-body-list-item">3 Publicaciones a la semana</p>
             <p class="plane-body-list-item">2 Publicaciones extra</p>
             <p class="plane-body-list-item">1 Publicidad x 3 días</p>
-            <a href="#" class="plane-body-button button-round impulse">Contratar</a>
+            <a href="https://api.whatsapp.com/send?phone=526181386705&text=Hola, Buen día! Me interesaría contratar el servicio IMPULSO para la administración de redes sociales, ¿podría proporcionarme más información? Porfavor" aria-label="Whatsapp de AreTec" target="_blank" class="plane-body-button button-round impulse">Contratar</a>
         </div>
       </div>
 
-      <div class="plane">
+      <div class="plane" data-aos="zoom-in">
         <div class="plane-header potentiate">
           <h2 class="plane-header-title">Potencializar</h2>
           <h2 class="plane-header-price potentiate">$2500MX</h2>
@@ -222,7 +220,7 @@
             <p class="plane-body-list-item">5 Publicaciones a la semana</p>
             <p class="plane-body-list-item">3 Publicaciones extra</p>
             <p class="plane-body-list-item">1 Publicidad x 5 días</p>
-            <a href="#" class="plane-body-button button-round potentiate">Contratar</a>
+            <a href="https://api.whatsapp.com/send?phone=526181386705&text=Hola, Buen día! Me interesaría contratar el servicio POTENCIALIZAR para la administración de redes sociales, ¿podría proporcionarme más información? Porfavor" aria-label="Whatsapp de AreTec" target="_blank" class="plane-body-button button-round potentiate">Contratar</a>
         </div>
       </div>
     </div>
@@ -230,9 +228,9 @@
     <!-- Footer -->
     <footer class="footer">
       <p class="footer-text">
-        Copyright © 2021 AreTec
+        Copyright © 2021
       </p>
-      <a class="footer-link" href="index.html">
+      <a class="footer-link" aria-label="Inicio" href="index.html">
         Desarrollado por Are<span>Tec</span>
       </a>
     </footer>
@@ -244,5 +242,13 @@
   <script src="../js/navbar.js"></script>
   <script src="../js/messages.js"></script>
   <script src="../js/script.js"></script>
+  
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+
+
 </body>
 </html>

@@ -11,6 +11,7 @@
     
     --font-color: #333;
     --font: 'Poppins', sans-serif;
+    font-display: swap;
 
     --transition: 0.3s ease;
     --padding-section: 20px 60px;

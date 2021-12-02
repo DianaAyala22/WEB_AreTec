@@ -6,17 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AreTec</title>
-  <meta name="description" content="Prueba AreTec pwa">
+  <meta name="description" content="Empresa desarrolladora de software, 100% Duranguense">
   <meta name="theme-color" content="#7D3C98">
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <!-- Links resources -->
-  <link rel="shortcut icon" type="image/png" href="./img/AreTec.png">
-  <link rel="apple-touch-icon" href="./img/AreTec.png">
-  <link rel="apple-touch-startup-image" href="./img/AreTec.png">
+  <link rel="shortcut icon" type="image/png" href="./img/1024x1024.png">
+  <link rel="apple-touch-icon" href="./img/1024x1024.png">
+  <link rel="apple-touch-startup-image" href="./img/1024x1024.png">
   <link rel="manifest" href="./manifest.json">
   <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> -->
   <!-- <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">  -->
@@ -31,25 +33,25 @@
   <!-- Hero Section -->
   <div class="hero">
     <nav class="navbar" id="navbar">
-      <a href="index.html" class="navbar-logo">
-        <img class="navbar-logo-image" src="img/AreTec.png" alt="AreTec">
+      <a href="index.html" aria-label="Página principal" class="navbar-logo">
+        <img class="navbar-logo-image" src="img/1024x1024.png" alt="AreTec">
         <h2 class="navbar-logo-text">Are<span>Tec</span></h2>
       </a>
       <ul class="navbar-elements" id="navbar-elements">
         <li class="navbar-element">
-          <a href="index.html" class="navbar-link">Inicio</a>
+          <a href="index.html" aria-label="Inicio" class="navbar-link">Inicio</a>
         </li>
         <li class="navbar-element">
-          <a href="./pages/services.html" class="navbar-link">Servicios</a>
+          <a href="./pages/services.html" aria-label="Servicios" class="navbar-link">Servicios</a>
         </li>
         <li class="navbar-element">
-          <a href="./pages/curses.html" class="navbar-link">Cursos</a>
+          <a href="./pages/curses.html" aria-label="Cursos" class="navbar-link">Cursos</a>
         </li>
         <li class="navbar-element">
-          <a href="./pages/contact.html" class="navbar-link">Contacto</a>
+          <a href="./pages/contact.html" aria-label="Contacto" class="navbar-link">Contacto</a>
         </li>
       </ul>
-      <button class="navbar-toggle" id="navbar-toggle">
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Botón">
         <i class="far fa-bars"></i>
       </button>
     </nav>
@@ -58,8 +60,8 @@
       <p class="hero-text">
         Somos una empresa de tecnología 100% Duranguense, dedicada al desarrollo de software, administración de redes sociales, mantenimiento de cómputo y ensamblaje de computadoras
       </p>
-      <a href="https://www.facebook.com/AreTecDgo" target="_blank" rel="noreferrer" class="button-round ">Más información</a>
-      <a href="#services-section" class="hero-button-down">
+      <a href="https://www.facebook.com/AreTecDgo" aria-label="Facebook de AreTec" target="_blank" rel="noreferrer" class="button-round ">Más información</a>
+      <a href="#services-section" aria-label="Sección de servicios" class="hero-button-down">
         <i class="far fa-chevron-down"></i>
       </a>
     </div>
@@ -67,14 +69,14 @@
 
   <!-- Services Section -->
   <div class="services" id="services-section">
-    <div class="service-development service">
+    <div class="service-development service" data-aos="fade-right">
       <i class="far fa-code service-icon development-icon"></i>
       <h2 class="service-title">Desarrollo</h2>
       <p class="service-description">
         La presencia Online brinda una relación activa entre la empresa y los clientes. Si una empresa está pendiente de su sitio web y sus redes sociales, sin dudas ofrecerá una mejor atención a sus clientes porque podrá responderles consultas de forma rápida y dirigida.
       </p>
     </div>
-    <div class="service-managment-social-media service">
+    <div class="service-managment-social-media service" data-aos="fade-left">
       <i class="far fa-user-friends service-icon managment-social-media-icon"></i>
       <h2 class="service-title">Administración de redes sociales</h2>
       <p class="service-description">
@@ -89,7 +91,7 @@
     <h2 class="technologies-title">Tecnologías que utilizamos</h2>
     <hr class="technologies-rule">
     <div class="technologies-grid">
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-js-square technology-icon"></i>
         <h3 class="technology-title">JavaScript</h3>
         <p class="technology-description">
@@ -97,7 +99,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-node technology-icon"></i>
         <h3 class="technology-title">Node JS</h3>
         <p class="technology-description">
@@ -105,7 +107,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-php technology-icon"></i>
         <h3 class="technology-title">PHP</h3>
         <p class="technology-description">
@@ -113,7 +115,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-python technology-icon"></i>
         <h3 class="technology-title">Python</h3>
         <p class="technology-description">
@@ -121,7 +123,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-bootstrap technology-icon"></i>
         <h3 class="technology-title">Bootstrap</h3>
         <p class="technology-description">
@@ -129,7 +131,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-vuejs technology-icon"></i>
         <h3 class="technology-title">Vue JS</h3>
         <p class="technology-description">
@@ -137,7 +139,7 @@
         </p>
       </div>
       
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-react technology-icon"></i>
         <h3 class="technology-title">React JS</h3>
         <p class="technology-description">
@@ -145,7 +147,7 @@
         </p>
       </div>
 
-      <div class="technology">
+      <div class="technology" data-aos="zoom-in">
         <i class="fab fa-angular technology-icon"></i>
         <h3 class="technology-title">Angular JS</h3>
         <p class="technology-description">
@@ -158,9 +160,9 @@
   <!-- Footer -->
   <footer class="footer">
     <p class="footer-text">
-      Copyright © 2021 AreTec
+      Copyright © 2021
     </p>
-    <a class="footer-link" href="index.html">
+    <a class="footer-link" aria-label="Inicio" href="index.html">
       Desarrollado por Are<span>Tec</span>
     </a>
   </footer>
@@ -171,5 +173,13 @@
   <script src="./js/navbar.js"></script>
   <script src="./js/messages.js"></script>
   <script src="./js/script.js"></script>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+
+
+
 </body>
 </html>
